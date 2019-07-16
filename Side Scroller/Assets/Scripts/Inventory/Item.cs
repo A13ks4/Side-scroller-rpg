@@ -6,7 +6,7 @@ using UnityEngine;
 //Data for items
 public class Item : IEquatable<Item> {
 
-    public enum ItemTypes { CURENCY, POTION, WEPON, AUGMENT }
+    public enum ItemTypes { CURENCY, POTION, WEPON, AUGMENT, QUEST }
     protected ItemTypes itemType;
     protected string name;
     protected int amount;

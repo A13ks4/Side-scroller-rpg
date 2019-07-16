@@ -36,6 +36,8 @@ public class PlayerInventory : MonoBehaviour {
         Item itt = new Item("speedPotion", 1, Item.ItemTypes.POTION, 10, 20);
         itt.effects.OnConsumeEffect += ItemEffects.speedOverTime;
         prototypes.Add("speedPotion", itt);
+        Item pan = new Item("pan", 1, Item.ItemTypes.QUEST, 0, 0);
+        prototypes.Add("pan", pan);
 
 
     }
